@@ -11,7 +11,7 @@ These instructions will get you a copy of the project up and running on your loc
 Clone the Repositorie to local machine
 
 ```
-git clone ..
+git clone git@github.com:andrewagathocleous/paymentGateway.git
 ```
  
 Run Npm
@@ -49,16 +49,16 @@ npm start
 
 Execute the api request you prefer for payments:
 
-GET '/payments'  -> Fetch Payments list
-GET '/payments/{id}'  -> Fetch Payment by Id
-POST '/payments'  -> Create Payment
-PUT payments/{id}/approve' -> Approve Payment
-PUT payments/{id}/cancel' -> Cancel Payment
+* GET '/payments'  -> Fetch Payments list
+* GET '/payments/{id}'  -> Fetch Payment by Id
+* POST '/payments'  -> Create Payment
+* PUT payments/{id}/approve' -> Approve Payment
+* PUT payments/{id}/cancel' -> Cancel Payment
 
 Execute the api request you prefer for users:
 
-POST '/users' -> Create new Users (Body : "name","email","password")
-GET '/users/me' -> View Users Info
+* POST '/users' -> Create new Users (Body : "name","email","password")
+* GET '/users/me' -> View Users Info
 
 ## Built With
 

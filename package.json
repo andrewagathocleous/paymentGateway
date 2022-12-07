@@ -8,9 +8,9 @@
   "author": "Andrew Agathocleous",
   "license": "MIT",
   "dependencies": {
-    "body-parser": "^1.19.0",
+    "body-parser": "^1.20.1",
     "bcryptjs": "^2.4.3",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "jsonwebtoken": "^8.5.1",
     "mongodb": "^3.2.7",
     "moment": "^2.24.0",
